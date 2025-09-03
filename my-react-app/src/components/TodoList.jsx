@@ -2,10 +2,13 @@
 const TodoList = () => {
     // ข้อมูลที่จะแสดง
     const todos = [
-        { id: 1, text: 'เรียน React พื้นฐาน', completed: true },
-        { id: 2, text: 'ทำความเข้าใจ Components', completed: true },
-        { id: 3, text: 'ฝึก Props และ State', completed: false },
-        { id: 4, text: 'สร้างโปรเจคจริง', completed: false }
+        { id: 1, text: 'เที่ยวต่างประเทศ', completed: true },
+        { id: 2, text: 'ไปดูกำแพงเมืองจีน', completed: true },
+        { id: 3, text: 'ไปดูภูเขาฟูจิ', completed: true },
+        { id: 4, text: 'กินไอติมที่สิงคโปร์', completed: false },
+        { id: 5, text: 'ไปแช่ออนเซ็น', completed: true },
+        { id: 6, text: 'ซื้อเสื้อผ้า', completed: false },
+        { id: 7, text: 'กลับบ้าน', completed: false }
     ];
     
     // คำนวณสถิติ
@@ -25,7 +28,7 @@ const TodoList = () => {
                 margin: '15px 0'
             }}>
                 <div style={{
-                    backgroundColor: '#4caf50',
+                    backgroundColor: '#e90e6dff',
                     width: `${percentage}%`,
                     textAlign: 'center',
                     borderRadius: '17px',

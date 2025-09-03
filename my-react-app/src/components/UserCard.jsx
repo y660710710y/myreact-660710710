@@ -2,7 +2,7 @@
 // Component ย่อยๆ
 const Avatar = () => (
     <img 
-        src="https://via.placeholder.com/50" 
+        src="https://plus.unsplash.com/premium_photo-1682125164600-e7493508e496?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXJ0fGVufDB8fDB8fHww" 
         alt="User Avatar"
         style={{
             borderRadius: '50%',
@@ -15,7 +15,7 @@ const Avatar = () => (
 
 const UserName = () => (
     <h3 style={{ color: '#667eea', margin: '10px 0' }}>
-        สมชาย ใจดี
+        Thanayod Rattanasureeroj
     </h3>
 );
 
